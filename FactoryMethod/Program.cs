@@ -4,12 +4,20 @@ using FactoryMethod;
 
 TransportFactory factory;
 
-// create car
-factory = new CarFactory();
-ITransport car = factory.CreateTransport();
-car.Deliver();
+Random random = new Random();
 
-// create bicycle
-factory = new BicycleFactory();
-ITransport bicycle = factory.CreateTransport();
-bicycle.Deliver();
+int randomNumber = random.Next(1, 3);
+
+if (randomNumber == 1)
+{
+    factory = new CarFactory();
+    ITransport car = factory.CreateTransport();
+    car.Deliver();
+}
+
+if (randomNumber == 2)
+{
+    factory = new BicycleFactory();
+    ITransport bicycle = factory.CreateTransport();
+    bicycle.Deliver();
+}
