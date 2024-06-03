@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{1990CFAA-3F9A-417C-9B56-6BD2FE1A550F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CreationalPattern.FactoryMethod", "FactoryMethod\DesignPatterns.CreationalPattern.FactoryMethod.csproj", "{1990CFAA-3F9A-417C-9B56-6BD2FE1A550F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CreationalPattern.Singleton", "DesignPatterns.CreationalPattern.Singleton\DesignPatterns.CreationalPattern.Singleton.csproj", "{AF0E21C2-79F6-4CAE-A404-37F980AE186C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1990CFAA-3F9A-417C-9B56-6BD2FE1A550F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1990CFAA-3F9A-417C-9B56-6BD2FE1A550F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1990CFAA-3F9A-417C-9B56-6BD2FE1A550F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0E21C2-79F6-4CAE-A404-37F980AE186C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0E21C2-79F6-4CAE-A404-37F980AE186C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0E21C2-79F6-4CAE-A404-37F980AE186C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0E21C2-79F6-4CAE-A404-37F980AE186C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
