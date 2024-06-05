@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+// Create a store for Modern furniture
+using DesignPatterns.CreationalPattern.AbstractFactory;
+IFurnitureFactory modernFactory = new ModernFurnitureFactory();
+FurnitureStore modernStore = new FurnitureStore(modernFactory);
+Console.WriteLine("1. Procesing order for MODERN furniture: ");
+modernStore.ProcessOrder();
+
+
+// Create a store for Modern furniture
+IFurnitureFactory victorianFactory = new VictorianFurnitureFactory();
+FurnitureStore victorianStore = new FurnitureStore(victorianFactory);
+Console.WriteLine("2. Procesing order for VICTORIAN furniture: ");
+victorianStore.ProcessOrder();

@@ -12,7 +12,7 @@ namespace DesignPatterns.CreationalPattern.AbstractFactory.ConcretClassProducts_
 
         public void PlaceItemsOn()
         {
-            Console.WriteLine("Placing items on a victorian coffee table.");
+            Console.WriteLine("* Placing items on a victorian coffee table.");
         }
     }
 }

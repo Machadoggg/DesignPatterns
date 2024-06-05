@@ -11,7 +11,7 @@ namespace DesignPatterns.CreationalPattern.AbstractFactory.ConcretClassProducts_
     {
         public void SitOn()
         {
-            Console.WriteLine("Sitting on a victorian chair.");
+            Console.WriteLine("* Sitting on a victorian chair.");
         }
     }
 }
