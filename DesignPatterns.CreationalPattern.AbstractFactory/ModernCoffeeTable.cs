@@ -8,7 +8,7 @@ namespace DesignPatterns.CreationalPattern.AbstractFactory
 {
     public class ModernCoffeeTable : ICoffeTable
     {
-        public void PlaceItemOn()
+        public void PlaceItemsOn()
         {
             Console.WriteLine("Placing items on a modern coffe table");
         }

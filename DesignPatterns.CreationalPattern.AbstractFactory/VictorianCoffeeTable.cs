@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.CreationalPattern.AbstractFactory
 {
-    public interface ICoffeTable
+    public class VictorianCoffeeTable : ICoffeTable
     {
-        void PlaceItemsOn();
+
+        public void PlaceItemsOn()
+        {
+            Console.WriteLine("Placing items on a victorian coffee table.");
+        }
     }
 }
