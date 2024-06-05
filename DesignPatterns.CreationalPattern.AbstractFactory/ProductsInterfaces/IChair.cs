@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.CreationalPattern.AbstractFactory
+namespace DesignPatterns.CreationalPattern.AbstractFactory.ProductsInterfaces
 {
-    public interface ICoffeTable
+    public interface IChair
     {
-        void PlaceItemsOn();
+        void SitOn();
     }
 }
