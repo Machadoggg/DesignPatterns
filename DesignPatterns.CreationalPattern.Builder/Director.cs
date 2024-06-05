@@ -32,7 +32,7 @@
                 _builder.BuildStatues();
             }
 
-            if (!hasGarden)
+            if (hasGarden)
             {
                 _builder.BuildGarden();
             }
