@@ -11,7 +11,7 @@ namespace DesignPatterns.CreationalPattern.AbstractFactory.ConcretClassProducts_
     {
         public void LieOn()
         {
-            Console.WriteLine("Lying on an ART DECO sofa.");
+            Console.WriteLine("- Lying on an Art Deco sofa.");
         }
     }
 }

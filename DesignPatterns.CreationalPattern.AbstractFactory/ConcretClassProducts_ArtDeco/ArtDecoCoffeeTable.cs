@@ -11,7 +11,7 @@ namespace DesignPatterns.CreationalPattern.AbstractFactory.ConcretClassProducts_
     {
         public void PlaceItemsOn()
         {
-            Console.WriteLine("Placing items on an ART DECO coffee table.");
+            Console.WriteLine("- Placing items on an Art Deco coffee table.");
         }
     }
 }
