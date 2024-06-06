@@ -8,10 +8,8 @@
         public string PhoneNumber { get; set; }
 
 
-        public AdvancedUserForm()
-        {
-
-        }
+        public AdvancedUserForm() { }
+        
 
         public AdvancedUserForm(AdvancedUserForm source)
         {
