@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CreationalPattern.FactoryMethod", "FactoryMethod\DesignPatterns.CreationalPattern.FactoryMethod.csproj", "{1990CFAA-3F9A-417C-9B56-6BD2FE1A550F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.CreationalPattern.FactoryMethod", "FactoryMethod\DesignPatterns.CreationalPattern.FactoryMethod.csproj", "{1990CFAA-3F9A-417C-9B56-6BD2FE1A550F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CreationalPattern.Singleton", "DesignPatterns.CreationalPattern.Singleton\DesignPatterns.CreationalPattern.Singleton.csproj", "{AF0E21C2-79F6-4CAE-A404-37F980AE186C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.CreationalPattern.Singleton", "DesignPatterns.CreationalPattern.Singleton\DesignPatterns.CreationalPattern.Singleton.csproj", "{AF0E21C2-79F6-4CAE-A404-37F980AE186C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CreationalPattern.AbstractFactory", "DesignPatterns.CreationalPattern.AbstractFactory\DesignPatterns.CreationalPattern.AbstractFactory.csproj", "{7C83EEB8-5726-4275-83C5-B6FDB87E3B1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.CreationalPattern.AbstractFactory", "DesignPatterns.CreationalPattern.AbstractFactory\DesignPatterns.CreationalPattern.AbstractFactory.csproj", "{7C83EEB8-5726-4275-83C5-B6FDB87E3B1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CreationalPattern.Builder", "DesignPatterns.CreationalPattern.Builder\DesignPatterns.CreationalPattern.Builder.csproj", "{755014EA-CC0C-4D67-B5B5-00AC3C6E45A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.CreationalPattern.Builder", "DesignPatterns.CreationalPattern.Builder\DesignPatterns.CreationalPattern.Builder.csproj", "{755014EA-CC0C-4D67-B5B5-00AC3C6E45A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CreationalPattern.Prototype", "DesignPatterns.CreationalPattern.Prototype\DesignPatterns.CreationalPattern.Prototype.csproj", "{8CB4B657-A6F8-4E72-B73A-A638A3AFA133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.CreationalPattern.Prototype", "DesignPatterns.CreationalPattern.Prototype\DesignPatterns.CreationalPattern.Prototype.csproj", "{8CB4B657-A6F8-4E72-B73A-A638A3AFA133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.StructuralPattern.Adapter", "DesignPatterns.StructuralsPattern.Adapter\DesignPatterns.StructuralPattern.Adapter.csproj", "{4258BBD6-051C-46C6-9FD0-B92946D4F01A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8CB4B657-A6F8-4E72-B73A-A638A3AFA133}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CB4B657-A6F8-4E72-B73A-A638A3AFA133}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CB4B657-A6F8-4E72-B73A-A638A3AFA133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4258BBD6-051C-46C6-9FD0-B92946D4F01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4258BBD6-051C-46C6-9FD0-B92946D4F01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4258BBD6-051C-46C6-9FD0-B92946D4F01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4258BBD6-051C-46C6-9FD0-B92946D4F01A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
