@@ -7,7 +7,7 @@ namespace DesignPatterns.StructuralPattern.Adapter
     {
         private readonly XmlConverter _xmlConverter;
 
-        public XmlToJsonAdapter()
+        public XmlToJsonAdapter(XmlConverter xmlConverter)
         {
             _xmlConverter = new XmlConverter();
         }
