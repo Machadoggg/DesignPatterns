@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+using DesignPatterns.StructuralPattern.Facade;
+
+CinemaFacade cinema = new CinemaFacade();
+cinema.WatchMovie("Matrix", 2, "Popcorn");
