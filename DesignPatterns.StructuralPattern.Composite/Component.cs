@@ -10,7 +10,7 @@
             Name = name;
         }
 
-        public abstract void Mostrar(int depth);
+        public abstract void Show(int depth);
 
     }
 }
