@@ -12,7 +12,7 @@ namespace DesignPatterns.StructuralPattern.Composite
 
         public override void Show(int depth)
         {
-            Console.WriteLine(new String(' ', depth) + Name);
+            Console.WriteLine(new String('-', depth) + Name);
         }
     }
 }
