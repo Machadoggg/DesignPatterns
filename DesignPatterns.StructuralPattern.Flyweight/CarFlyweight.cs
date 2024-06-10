@@ -2,6 +2,10 @@
 {
     public class CarFlyweight
     {
+        public string Company { get; } = default!;
+        public string Model { get; } = default!;
+        public string Color { get; set; } = default!;
+
         public CarFlyweight(string company, string model, string color)
         {
             Company = company;
@@ -9,13 +13,15 @@
             Color = color;
         }
 
-        public string Company { get; } = default!;
-        public string Model { get; } = default!;
-        public string Color { get; set; } = default!;
+
+        public string GetSharedState()
+        {
+            return $"{{\"Company\":\"{Company}\",\"Model\":\"{Model}\",\"Color\":\"{Color}\"}}";
+        }
 
         public void Display(string owner, string number)
         {
-            Console.WriteLine($"Car {number}: {Company} {Model} in {Color}, owned by {owner}");
+            Console.WriteLine($"Flyweight: Displaying shared {GetSharedState()} and unique {{\"Owner\":\"{owner}\",\"Number\":\"{number}\",\"Company\":\"{Company}\",\"Model\":\"{Model}\",\"Color\":\"{Color}\"}} state.");
         }
 
 
