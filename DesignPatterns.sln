@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.CreationalPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.CreationalPattern.Prototype", "DesignPatterns.CreationalPattern.Prototype\DesignPatterns.CreationalPattern.Prototype.csproj", "{8CB4B657-A6F8-4E72-B73A-A638A3AFA133}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.StructuralPattern.Adapter", "DesignPatterns.StructuralsPattern.Adapter\DesignPatterns.StructuralPattern.Adapter.csproj", "{4258BBD6-051C-46C6-9FD0-B92946D4F01A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.StructuralPattern.Adapter", "DesignPatterns.StructuralsPattern.Adapter\DesignPatterns.StructuralPattern.Adapter.csproj", "{4258BBD6-051C-46C6-9FD0-B92946D4F01A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.StructuralPattern.Facade", "DesignPatterns.StructuralPattern.Facade\DesignPatterns.StructuralPattern.Facade.csproj", "{AF0A509C-CE24-4A41-A8AF-8F1C24210384}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.StructuralPattern.Facade", "DesignPatterns.StructuralPattern.Facade\DesignPatterns.StructuralPattern.Facade.csproj", "{AF0A509C-CE24-4A41-A8AF-8F1C24210384}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.StructuralPattern.Bridge", "DesignPatterns.StructuralPattern.Bridge\DesignPatterns.StructuralPattern.Bridge.csproj", "{AF4269A9-BD25-43E8-8023-7B7D406EACA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.StructuralPattern.Bridge", "DesignPatterns.StructuralPattern.Bridge\DesignPatterns.StructuralPattern.Bridge.csproj", "{AF4269A9-BD25-43E8-8023-7B7D406EACA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.StructuralPattern.Composite", "DesignPatterns.StructuralPattern.Composite\DesignPatterns.StructuralPattern.Composite.csproj", "{8192ECCC-0787-4BF4-BAAB-BC9FC1740ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.StructuralPattern.Composite", "DesignPatterns.StructuralPattern.Composite\DesignPatterns.StructuralPattern.Composite.csproj", "{8192ECCC-0787-4BF4-BAAB-BC9FC1740ED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.StructuralPattern.Decorator", "DesignPatterns.StructuralPattern.Decorator\DesignPatterns.StructuralPattern.Decorator.csproj", "{C776DCF7-9043-421F-833A-380079EAF86E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{8192ECCC-0787-4BF4-BAAB-BC9FC1740ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8192ECCC-0787-4BF4-BAAB-BC9FC1740ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8192ECCC-0787-4BF4-BAAB-BC9FC1740ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C776DCF7-9043-421F-833A-380079EAF86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C776DCF7-9043-421F-833A-380079EAF86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C776DCF7-9043-421F-833A-380079EAF86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C776DCF7-9043-421F-833A-380079EAF86E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
