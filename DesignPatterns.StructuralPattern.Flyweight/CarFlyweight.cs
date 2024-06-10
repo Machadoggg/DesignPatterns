@@ -21,7 +21,7 @@
 
         public void Display(string owner, string number)
         {
-            Console.WriteLine($"Flyweight: Displaying shared {GetSharedState()} and unique {{\"Owner\":\"{owner}\",\"Number\":\"{number}\",\"Company\":\"{Company}\",\"Model\":\"{Model}\",\"Color\":\"{Color}\"}} state.");
+            Console.WriteLine($"\tFlyweight: Displaying shared {GetSharedState()} and unique {{\"Owner\":\"{owner}\",\"Number\":\"{number}\",\"Company\":\"{Company}\",\"Model\":\"{Model}\",\"Color\":\"{Color}\"}} state.");
         }
 
 

@@ -11,11 +11,11 @@
             string key = $"{company}_{model}_{color}";
             if (flyweights.ContainsKey(key))
             {
-                Console.WriteLine("FlyweightFactory: Reusing existing flyweight.");
+                Console.WriteLine($"\tFlyweightFactory: Reusing existing flyweight [{company}].");
             }
             else
             {
-                Console.WriteLine("FlyweightFactory: Can't find a flyweight, creating new one.");
+                Console.WriteLine($"FlyweightFactory: Can't find a flyweight, creating new one [{company}].");
                 flyweights[key] = new CarFlyweight(company, model, color);
             }
             return flyweights[key];
@@ -23,10 +23,12 @@
 
         public void ListFlyweights()
         {
-            Console.WriteLine($"FlyweightFactory: I have {flyweights.Count} flyweights:");
+            Console.WriteLine($"\tFlyweightFactory: I have [{flyweights.Count} flyweights]:");
+            int count = 0;
             foreach (var key in flyweights.Keys)
             {
-                Console.WriteLine(key);
+                count = count + 1;
+                Console.WriteLine($"\t\t{count} - {key}");
             }
         }
     }
