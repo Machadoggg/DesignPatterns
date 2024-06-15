@@ -2,12 +2,12 @@
 {
     public abstract class User
     {
-        protected User _succesor;
+        protected User successor;
 
 
-        public void SetSuccesor(User succesor)
+        public void SetSuccesor(User successor)
         { 
-            this._succesor = succesor;
+            this.successor = successor;
         }
 
         public abstract void HandleRequest(SalesRequest request);
