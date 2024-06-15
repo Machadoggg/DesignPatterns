@@ -5,7 +5,7 @@
         protected User successor;
 
 
-        public void SetSuccesor(User successor)
+        public void SetSuccessor(User successor)
         { 
             this.successor = successor;
         }
