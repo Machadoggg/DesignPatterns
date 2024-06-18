@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.StructuralPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.StructuralPattern.Proxy", "DesignPatterns.StructuralPattern.Proxy\DesignPatterns.StructuralPattern.Proxy.csproj", "{9667F5C0-1CBD-45C2-860F-7F10F0567683}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.BehaviorPattern.ChainOfResponsibility", "DesignPatterns.BehaviorPattern.ChainOfResponsibility\DesignPatterns.BehaviorPattern.ChainOfResponsibility.csproj", "{33128550-77EB-4B82-A78D-0CE0EC2F1F87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.BehaviorPattern.ChainOfResponsibility", "DesignPatterns.BehaviorPattern.ChainOfResponsibility\DesignPatterns.BehaviorPattern.ChainOfResponsibility.csproj", "{33128550-77EB-4B82-A78D-0CE0EC2F1F87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.BehaviorPattern.Command", "DesignPatterns.BehaviorPattern.Command\DesignPatterns.BehaviorPattern.Command.csproj", "{A5570BC2-8B9C-47BE-8FFE-79B7BBB141AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.BehaviorPattern.Command", "DesignPatterns.BehaviorPattern.Command\DesignPatterns.BehaviorPattern.Command.csproj", "{A5570BC2-8B9C-47BE-8FFE-79B7BBB141AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.BehaviorPattern.Strategy", "DesignPatterns.BehaviorPattern.Strategy\DesignPatterns.BehaviorPattern.Strategy.csproj", "{77C333AC-6246-415B-ACB0-D35E5C276DBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{A5570BC2-8B9C-47BE-8FFE-79B7BBB141AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5570BC2-8B9C-47BE-8FFE-79B7BBB141AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5570BC2-8B9C-47BE-8FFE-79B7BBB141AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C333AC-6246-415B-ACB0-D35E5C276DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C333AC-6246-415B-ACB0-D35E5C276DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C333AC-6246-415B-ACB0-D35E5C276DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C333AC-6246-415B-ACB0-D35E5C276DBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
