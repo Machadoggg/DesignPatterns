@@ -10,7 +10,7 @@
             _command = command;
         }
 
-        public void PressButtn()
+        public void PressButton()
         {
             _command.Execute();
         }
