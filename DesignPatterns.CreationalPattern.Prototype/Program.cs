@@ -1,6 +1,6 @@
 ﻿
 
-// Crear un formulario de usuario básico y clonarlo
+// Create basic user form and clone
 using DesignPatterns.CreationalPattern.Prototype;
 
 BasicUserForm basicForm1 = new BasicUserForm
@@ -17,7 +17,7 @@ basicForm2.UserName = "user2";
 basicForm2.Email = "user2@example.com";
 basicForm2.Password = "password2";
 
-// Crear un formulario de usuario avanzado y clonarlo
+// Create form advanced user and clone
 AdvancedUserForm advancedForm1 = new AdvancedUserForm
 {
     UserName = "admin1",
@@ -28,13 +28,13 @@ AdvancedUserForm advancedForm1 = new AdvancedUserForm
 
 AdvancedUserForm advancedForm2 = (AdvancedUserForm)advancedForm1.Clone();
 
-// Modificar el formulario clonado
+// Modified clone form
 advancedForm2.UserName = "admin2";
 advancedForm2.Email = "admin2@example.com";
 advancedForm2.Address = "456 Elm St";
 advancedForm2.PhoneNumber = "555-5678";
 
-// Mostrar detalles de los formularios originales y clonados
+// Show details original forms and clones
 Console.WriteLine("Original and Cloned Basic User Forms:");
 basicForm1.ShowDetails();
 basicForm2.ShowDetails();
