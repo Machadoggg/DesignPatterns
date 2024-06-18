@@ -2,9 +2,9 @@
 {
     public class GroundShippingStrategy : IShippingStrategy
     {
-        public double CalculateShippingCost(Order order)
+        public double CalculateShippingCost(OrderContext order)
         {
-            return order.weight * 0.5; // cost for weight for ground shipping 
+            return order.Weight * 0.5; // cost for weight for ground shipping 
         }
     }
 }

@@ -2,7 +2,7 @@
 {
     public class AirShippingStrategy : IShippingStrategy
     {
-        public double CalculateShippingCost(Order order)
+        public double CalculateShippingCost(OrderContext order)
         {
             return order.Weight * 1.0; // Cost for weight for air shipping
         }

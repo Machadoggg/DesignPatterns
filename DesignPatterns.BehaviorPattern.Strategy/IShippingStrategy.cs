@@ -2,6 +2,6 @@
 {
     public interface IShippingStrategy
     {
-        double CalculateShippingCost(Order order);
+        double CalculateShippingCost(OrderContext order);
     }
 }
